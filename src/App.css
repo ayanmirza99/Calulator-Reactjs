@@ -1,0 +1,115 @@
+.container{
+  width: 100vmax;
+  height:100vh;
+  background: whitesmoke;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator{
+  background-image: linear-gradient(black, rgb(74, 70, 70));
+  padding: 20px;
+  border-radius: 24px;
+  height: 605px;
+  width: 350px;
+}
+
+.display{
+  display: flex;
+  justify-content: flex-end;
+  margin:20px 0px;
+}
+
+.calculator form input{
+  border:1px solid rgb(89, 89, 89);
+  outline:0;
+  width: 65px;
+  height:65px;
+  background: transparent;
+  border-radius: 50px;
+  color:white;
+  cursor:pointer;
+  margin:10px;
+  font-size: 30px;
+}
+
+form .display input{
+  text-align: right;
+  flex-grow: 1;
+  font-size: 45px;
+  border:none;
+}
+
+.title{
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size:larger;
+  color: rgb(255, 98, 0);
+  margin-top: -38px;
+}
+.under-title{
+  width:180px;
+  margin-top: -24px;
+  height:4px;
+  background-color: rgb(255, 98, 0);
+  border: none;
+}
+
+.r-1 .divide{
+  background-color: rgb(89, 89, 89);
+}
+.r-2 .multiply{
+  background-color: rgb(89, 89, 89);
+}
+.r-3 .plus{
+  background-color: rgb(89, 89, 89);
+}
+.r-4 .minus{
+  background-color: rgb(89, 89, 89);
+}
+.r-4 .point{
+  background-color: rgb(89, 89, 89);
+}
+form .r-4 .equal{
+  background-color: rgb(255, 98, 0);
+}
+
+.r-1 .divide:active{
+  background-color: rgb(255, 98, 0);
+}
+.r-2 .multiply:active{
+  background-color: rgb(255, 98, 0);
+}
+.r-3 .plus:active{
+  background-color: rgb(255, 98, 0);
+}
+.r-4 .minus:active{
+  background-color: rgb(255, 98, 0);
+}
+.r-4 .point:active{
+  background-color: rgb(255, 98, 0);
+}
+
+.r-1 input:active{
+  background-color: rgb(89, 89, 89);
+}
+.r-2 input:active{
+  background-color: rgb(89, 89, 89);
+}
+.r-3 input:active{
+  background-color: rgb(89, 89, 89);
+}
+.r-4 input:active{
+  background-color: rgb(89, 89, 89);
+}
+
+form .clear input{
+  width: 325px;
+  border: 2px solid rgb(255, 98, 0);
+}
+
+form .clear input:active{
+  background-color: rgb(255, 98, 0);
+}
